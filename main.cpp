@@ -12,4 +12,6 @@ int main()
 {
     Deck* deck = new Deck();
     deck->printDeck();
+
+    delete deck;
 }

@@ -5,33 +5,35 @@
 #include <iostream>
 #include "Card.hpp"
 
-Card::Card(int suit, int value)
+Card::Card(int& suit, int& value)
 {
-    m_Value = new int(value);
+    pm_Value = new int(value);
     switch(suit){
         case 0:
-            m_Suit = new string("Heart");
+            pm_Suit = new string("Heart");
             break;
         case 1:
-            m_Suit = new string("Diamond");
+            pm_Suit = new string("Diamond");
             break;
         case 2:
-            m_Suit = new string("Club");
+            pm_Suit = new string("Club");
             break;
         case 3:
-            m_Suit = new string("Spade");
+            pm_Suit = new string("Spade");
             break;
         default:
-            m_Suit = new string("Invalid");
+            pm_Suit = new string("Invalid");
             break;
     }
 }
 
 ostream& operator<<(ostream& os, const Card& c){
-    os << *c.m_Suit + '-' + to_string(*c.m_Value);
+    os << *c.pm_Suit + '-' + to_string(*c.pm_Value);
     return os;
 }
 
 Card::~Card() {
+    delete pm_Value;
+    delete pm_Suit;
     cout << "Deleting a card" << endl;
 }

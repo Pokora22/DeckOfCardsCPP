@@ -10,16 +10,14 @@ using namespace std;
 
 class Card {
 private:
-    string* m_Suit;
-    int* m_Value;
+    string* pm_Suit;
+    int* pm_Value;
 
 public:
-    Card(int suit, int value);
+    Card(int& suit, int& value);
     ~Card();
     friend ostream& operator<<(ostream& os, const Card& c);
 };
-
-
 
 
 #endif //MADLIBREF_CARD_HPP
