@@ -13,13 +13,13 @@
 
 class Deck {
 private:
-    vector<Card>* pm_deck;
+    vector<Card*>* pm_deck;
 
 public:
     Deck();
     ~Deck();
     void printDeck();
-    friend ostream& operator<<(ostream& os, const Deck& c);
+    friend ostream& operator<<(ostream& os, const Deck& d);
 };
 
 

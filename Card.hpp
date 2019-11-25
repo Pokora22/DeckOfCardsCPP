@@ -10,8 +10,8 @@ using namespace std;
 
 class Card {
 private:
-    string pm_Suit;
-    int pm_Value;
+    string* pm_Suit;
+    int* pm_Value;
 
 public:
     Card(int& suit, int& value);

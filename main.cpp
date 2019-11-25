@@ -11,7 +11,10 @@ using namespace std;
 int main()
 {
     Deck* deck = new Deck();
-    deck->printDeck();
+    cout << deck;
+//    deck->printDeck();
 
     delete deck;
+
+
 }
