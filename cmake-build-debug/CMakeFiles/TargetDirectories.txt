@@ -1,0 +1,3 @@
+C:/Users/pokor/CLionProjects/MadLibRef/cmake-build-debug/CMakeFiles/MadLibRef.dir
+C:/Users/pokor/CLionProjects/MadLibRef/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/pokor/CLionProjects/MadLibRef/cmake-build-debug/CMakeFiles/rebuild_cache.dir

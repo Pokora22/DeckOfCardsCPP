@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/pokor/CLionProjects/MadLibRef/Card.cpp
+Card.hpp
+C:/Users/pokor/CLionProjects/MadLibRef/Card.hpp
+
+C:/Users/pokor/CLionProjects/MadLibRef/Card.hpp
+string
+-
+
+C:/Users/pokor/CLionProjects/MadLibRef/Deck.cpp
+iostream
+-
+Deck.hpp
+C:/Users/pokor/CLionProjects/MadLibRef/Deck.hpp
+Card.hpp
+C:/Users/pokor/CLionProjects/MadLibRef/Card.hpp
+
+C:/Users/pokor/CLionProjects/MadLibRef/Deck.hpp
+vector
+-
+Card.hpp
+C:/Users/pokor/CLionProjects/MadLibRef/Card.hpp
+
+C:/Users/pokor/CLionProjects/MadLibRef/main.cpp
+iostream
+-
+string
+-
+Deck.hpp
+C:/Users/pokor/CLionProjects/MadLibRef/Deck.hpp
+
