@@ -15,14 +15,15 @@ Deck::Deck() {
     }
 }
 
-void Deck::printDeck() {
-//    for (auto &card : m_deck) // access by reference to avoid copying
-//    {
-//
-//    }
+Deck::~Deck() {
+    for(auto &card : m_deck){
+        delete &card;
+    }
+    cout << "Deleting all cards in the deck." << endl;
+}
 
-    for (auto card = m_deck.begin(); card != m_deck.end(); ++card)
-    {
-        cout << *card.;
+void Deck::printDeck() {
+    for(auto &card : m_deck){
+        cout << &card;
     }
 }

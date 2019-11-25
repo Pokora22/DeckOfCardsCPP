@@ -17,6 +17,8 @@ private:
 
 public:
     Deck();
+    ~Deck();
+
     void printDeck();
 };
 

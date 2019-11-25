@@ -4,8 +4,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/MadLibRef.dir/main.cpp.obj"
   "MadLibRef.exe"
   "MadLibRef.exe.manifest"
-  "MadLibRef.lib"
   "MadLibRef.pdb"
+  "libMadLibRef.dll.a"
 )
 
 # Per-language clean rules from dependency scanning.
