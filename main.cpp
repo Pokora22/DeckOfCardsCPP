@@ -15,6 +15,4 @@ int main()
 //    deck->printDeck();
 
     delete deck;
-
-
 }

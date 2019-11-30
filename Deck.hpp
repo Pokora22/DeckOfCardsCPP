@@ -20,6 +20,7 @@ public:
     ~Deck();
     void printDeck();
     friend ostream& operator<<(ostream& os, const Deck& d);
+    void printVectorAddr();
 };
 
 

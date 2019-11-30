@@ -6,13 +6,21 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/Pokora/CLionProjects/DeckOfCardsCPP/Card.cpp
-iostream
+C:/Users/Pokora/CLionProjects/DeckOfCardsCPP/Card.hpp
+string
+-
+
+C:/Users/Pokora/CLionProjects/DeckOfCardsCPP/Deck.hpp
+vector
 -
 Card.hpp
 C:/Users/Pokora/CLionProjects/DeckOfCardsCPP/Card.hpp
 
-C:/Users/Pokora/CLionProjects/DeckOfCardsCPP/Card.hpp
+C:/Users/Pokora/CLionProjects/DeckOfCardsCPP/main.cpp
+iostream
+-
 string
 -
+Deck.hpp
+C:/Users/Pokora/CLionProjects/DeckOfCardsCPP/Deck.hpp
 

@@ -18,23 +18,36 @@ Deck::Deck() {
 
 Deck::~Deck() {
     for(auto card = pm_deck->begin(); card != pm_deck->end(); card++){
-//        delete *card;
+        delete *card;
     }
     delete pm_deck;
     cout << "Deleting all cards in the deck." << endl;
 }
 
+//void Deck::printDeck() {
+//    cout << "Deck size: " << pm_deck->size() << endl;
+//    for(auto card = pm_deck->begin(); card != pm_deck->end(); card++){
+//        cout << **card << endl;
+//    }
+//}
+
 void Deck::printDeck() {
     cout << "Deck size: " << pm_deck->size() << endl;
-    for(auto card = pm_deck->begin(); card != pm_deck->end(); card++){
-        cout << **card << endl;
+    for(auto card : *pm_deck){
+        cout << *card << endl;
     }
 }
 
+//TODO: This is not being used, instead default << is used
 ostream& operator<<(ostream& os, const Deck& d){
     os << "Deck size: " + to_string(d.pm_deck->size()) << endl;
-    for(auto card = d.pm_deck->begin(); card != d.pm_deck->end(); card++) {
-        os << **card << endl;
+    for(auto card : *d.pm_deck) {
+        os << *card << endl;
     }
     return os;
 }
+
+void Deck::printVectorAddr() {
+    cout <<"Addr: " << pm_deck << endl;
+}
+
