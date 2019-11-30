@@ -3,6 +3,8 @@
 
 #include <iostream>
 #include <string>
+#include <random>
+#include <algorithm>
 #include "Deck.hpp"
 
 using namespace std;
@@ -11,7 +13,10 @@ using namespace std;
 int main()
 {
     Deck* deck = new Deck();
-    cout << deck;
+    deck->Shuffle();
+    cout << *deck;
+    deck->Shuffle();
+    cout << *deck;
 //    deck->printDeck();
 
     delete deck;

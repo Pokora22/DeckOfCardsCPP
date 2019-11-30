@@ -33,19 +33,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2019.2.5\bin\cmake\win\bin\cmake.exe"
+CMAKE_COMMAND = C:\Users\pokor\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\192.6817.32\bin\cmake\win\bin\cmake.exe
 
 # The command to remove a file.
-RM = "C:\Program Files\JetBrains\CLion 2019.2.5\bin\cmake\win\bin\cmake.exe" -E remove -f
+RM = C:\Users\pokor\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\192.6817.32\bin\cmake\win\bin\cmake.exe -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\Pokora\CLionProjects\DeckOfCardsCPP
+CMAKE_SOURCE_DIR = C:\Users\pokor\CLionProjects\MadLibRef
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\Pokora\CLionProjects\DeckOfCardsCPP\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\pokor\CLionProjects\MadLibRef\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/MadLibRef.dir/depend.make
@@ -58,42 +58,42 @@ include CMakeFiles/MadLibRef.dir/flags.make
 
 CMakeFiles/MadLibRef.dir/main.cpp.obj: CMakeFiles/MadLibRef.dir/flags.make
 CMakeFiles/MadLibRef.dir/main.cpp.obj: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Pokora\CLionProjects\DeckOfCardsCPP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/MadLibRef.dir/main.cpp.obj"
-	C:\Users\Pokora\Documents\Dice\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\MadLibRef.dir\main.cpp.obj -c C:\Users\Pokora\CLionProjects\DeckOfCardsCPP\main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\pokor\CLionProjects\MadLibRef\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/MadLibRef.dir/main.cpp.obj"
+	C:\Dev\mingw32\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\MadLibRef.dir\main.cpp.obj -c C:\Users\pokor\CLionProjects\MadLibRef\main.cpp
 
 CMakeFiles/MadLibRef.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MadLibRef.dir/main.cpp.i"
-	C:\Users\Pokora\Documents\Dice\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Pokora\CLionProjects\DeckOfCardsCPP\main.cpp > CMakeFiles\MadLibRef.dir\main.cpp.i
+	C:\Dev\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\pokor\CLionProjects\MadLibRef\main.cpp > CMakeFiles\MadLibRef.dir\main.cpp.i
 
 CMakeFiles/MadLibRef.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MadLibRef.dir/main.cpp.s"
-	C:\Users\Pokora\Documents\Dice\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Pokora\CLionProjects\DeckOfCardsCPP\main.cpp -o CMakeFiles\MadLibRef.dir\main.cpp.s
+	C:\Dev\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\pokor\CLionProjects\MadLibRef\main.cpp -o CMakeFiles\MadLibRef.dir\main.cpp.s
 
 CMakeFiles/MadLibRef.dir/Card.cpp.obj: CMakeFiles/MadLibRef.dir/flags.make
 CMakeFiles/MadLibRef.dir/Card.cpp.obj: ../Card.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Pokora\CLionProjects\DeckOfCardsCPP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/MadLibRef.dir/Card.cpp.obj"
-	C:\Users\Pokora\Documents\Dice\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\MadLibRef.dir\Card.cpp.obj -c C:\Users\Pokora\CLionProjects\DeckOfCardsCPP\Card.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\pokor\CLionProjects\MadLibRef\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/MadLibRef.dir/Card.cpp.obj"
+	C:\Dev\mingw32\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\MadLibRef.dir\Card.cpp.obj -c C:\Users\pokor\CLionProjects\MadLibRef\Card.cpp
 
 CMakeFiles/MadLibRef.dir/Card.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MadLibRef.dir/Card.cpp.i"
-	C:\Users\Pokora\Documents\Dice\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Pokora\CLionProjects\DeckOfCardsCPP\Card.cpp > CMakeFiles\MadLibRef.dir\Card.cpp.i
+	C:\Dev\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\pokor\CLionProjects\MadLibRef\Card.cpp > CMakeFiles\MadLibRef.dir\Card.cpp.i
 
 CMakeFiles/MadLibRef.dir/Card.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MadLibRef.dir/Card.cpp.s"
-	C:\Users\Pokora\Documents\Dice\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Pokora\CLionProjects\DeckOfCardsCPP\Card.cpp -o CMakeFiles\MadLibRef.dir\Card.cpp.s
+	C:\Dev\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\pokor\CLionProjects\MadLibRef\Card.cpp -o CMakeFiles\MadLibRef.dir\Card.cpp.s
 
 CMakeFiles/MadLibRef.dir/Deck.cpp.obj: CMakeFiles/MadLibRef.dir/flags.make
 CMakeFiles/MadLibRef.dir/Deck.cpp.obj: ../Deck.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Pokora\CLionProjects\DeckOfCardsCPP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/MadLibRef.dir/Deck.cpp.obj"
-	C:\Users\Pokora\Documents\Dice\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\MadLibRef.dir\Deck.cpp.obj -c C:\Users\Pokora\CLionProjects\DeckOfCardsCPP\Deck.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\pokor\CLionProjects\MadLibRef\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/MadLibRef.dir/Deck.cpp.obj"
+	C:\Dev\mingw32\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\MadLibRef.dir\Deck.cpp.obj -c C:\Users\pokor\CLionProjects\MadLibRef\Deck.cpp
 
 CMakeFiles/MadLibRef.dir/Deck.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MadLibRef.dir/Deck.cpp.i"
-	C:\Users\Pokora\Documents\Dice\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Pokora\CLionProjects\DeckOfCardsCPP\Deck.cpp > CMakeFiles\MadLibRef.dir\Deck.cpp.i
+	C:\Dev\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\pokor\CLionProjects\MadLibRef\Deck.cpp > CMakeFiles\MadLibRef.dir\Deck.cpp.i
 
 CMakeFiles/MadLibRef.dir/Deck.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MadLibRef.dir/Deck.cpp.s"
-	C:\Users\Pokora\Documents\Dice\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Pokora\CLionProjects\DeckOfCardsCPP\Deck.cpp -o CMakeFiles\MadLibRef.dir\Deck.cpp.s
+	C:\Dev\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\pokor\CLionProjects\MadLibRef\Deck.cpp -o CMakeFiles\MadLibRef.dir\Deck.cpp.s
 
 # Object files for target MadLibRef
 MadLibRef_OBJECTS = \
@@ -111,7 +111,7 @@ MadLibRef.exe: CMakeFiles/MadLibRef.dir/build.make
 MadLibRef.exe: CMakeFiles/MadLibRef.dir/linklibs.rsp
 MadLibRef.exe: CMakeFiles/MadLibRef.dir/objects1.rsp
 MadLibRef.exe: CMakeFiles/MadLibRef.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Pokora\CLionProjects\DeckOfCardsCPP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable MadLibRef.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\pokor\CLionProjects\MadLibRef\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable MadLibRef.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\MadLibRef.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -124,6 +124,6 @@ CMakeFiles/MadLibRef.dir/clean:
 .PHONY : CMakeFiles/MadLibRef.dir/clean
 
 CMakeFiles/MadLibRef.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\Pokora\CLionProjects\DeckOfCardsCPP C:\Users\Pokora\CLionProjects\DeckOfCardsCPP C:\Users\Pokora\CLionProjects\DeckOfCardsCPP\cmake-build-debug C:\Users\Pokora\CLionProjects\DeckOfCardsCPP\cmake-build-debug C:\Users\Pokora\CLionProjects\DeckOfCardsCPP\cmake-build-debug\CMakeFiles\MadLibRef.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\pokor\CLionProjects\MadLibRef C:\Users\pokor\CLionProjects\MadLibRef C:\Users\pokor\CLionProjects\MadLibRef\cmake-build-debug C:\Users\pokor\CLionProjects\MadLibRef\cmake-build-debug C:\Users\pokor\CLionProjects\MadLibRef\cmake-build-debug\CMakeFiles\MadLibRef.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/MadLibRef.dir/depend
 

@@ -4,9 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/Pokora/CLionProjects/DeckOfCardsCPP/Card.cpp" "C:/Users/Pokora/CLionProjects/DeckOfCardsCPP/cmake-build-debug/CMakeFiles/MadLibRef.dir/Card.cpp.obj"
-  "C:/Users/Pokora/CLionProjects/DeckOfCardsCPP/Deck.cpp" "C:/Users/Pokora/CLionProjects/DeckOfCardsCPP/cmake-build-debug/CMakeFiles/MadLibRef.dir/Deck.cpp.obj"
-  "C:/Users/Pokora/CLionProjects/DeckOfCardsCPP/main.cpp" "C:/Users/Pokora/CLionProjects/DeckOfCardsCPP/cmake-build-debug/CMakeFiles/MadLibRef.dir/main.cpp.obj"
+  "C:/Users/pokor/CLionProjects/MadLibRef/Card.cpp" "C:/Users/pokor/CLionProjects/MadLibRef/cmake-build-debug/CMakeFiles/MadLibRef.dir/Card.cpp.obj"
+  "C:/Users/pokor/CLionProjects/MadLibRef/Deck.cpp" "C:/Users/pokor/CLionProjects/MadLibRef/cmake-build-debug/CMakeFiles/MadLibRef.dir/Deck.cpp.obj"
+  "C:/Users/pokor/CLionProjects/MadLibRef/main.cpp" "C:/Users/pokor/CLionProjects/MadLibRef/cmake-build-debug/CMakeFiles/MadLibRef.dir/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

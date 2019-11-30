@@ -8,94 +8,94 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="C:/Users/Pokora/CLionProjects/DeckOfCardsCPP/cmake-build-debug"/>
+				<Option working_dir="C:/Users/pokor/CLionProjects/MadLibRef/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/Users/Pokora/Documents/Dice/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Pokora/CLionProjects/DeckOfCardsCPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="C:/Users/Pokora/Documents/Dice/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Pokora/CLionProjects/DeckOfCardsCPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/Users/Pokora/Documents/Dice/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Pokora/CLionProjects/DeckOfCardsCPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/Users/Pokora/Documents/Dice/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Pokora/CLionProjects/DeckOfCardsCPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/Dev/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/pokor/CLionProjects/MadLibRef/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/Dev/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/pokor/CLionProjects/MadLibRef/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Dev/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/pokor/CLionProjects/MadLibRef/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Dev/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/pokor/CLionProjects/MadLibRef/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="MadLibRef">
-				<Option output="C:/Users/Pokora/CLionProjects/DeckOfCardsCPP/cmake-build-debug/MadLibRef.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/Pokora/CLionProjects/DeckOfCardsCPP/cmake-build-debug"/>
+				<Option output="C:/Users/pokor/CLionProjects/MadLibRef/cmake-build-debug/MadLibRef.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/pokor/CLionProjects/MadLibRef/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="C:/Users/Pokora/Documents/Dice/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
-					<Add directory="C:/Users/Pokora/Documents/Dice/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="C:/Users/Pokora/Documents/Dice/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
-					<Add directory="C:/Users/Pokora/Documents/Dice/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
-					<Add directory="C:/Users/Pokora/Documents/Dice/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="C:/Users/Pokora/Documents/Dice/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="C:/Dev/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.3.0/include/c++"/>
+					<Add directory="C:/Dev/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.3.0/include/c++/i686-w64-mingw32"/>
+					<Add directory="C:/Dev/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.3.0/include/c++/backward"/>
+					<Add directory="C:/Dev/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.3.0/include"/>
+					<Add directory="C:/Dev/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.3.0/include-fixed"/>
+					<Add directory="C:/Dev/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.3.0/../../../../i686-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/Users/Pokora/Documents/Dice/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Pokora/CLionProjects/DeckOfCardsCPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 MadLibRef"/>
-					<CompileFile command="C:/Users/Pokora/Documents/Dice/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Pokora/CLionProjects/DeckOfCardsCPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/Users/Pokora/Documents/Dice/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Pokora/CLionProjects/DeckOfCardsCPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/Users/Pokora/Documents/Dice/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Pokora/CLionProjects/DeckOfCardsCPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/Dev/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/pokor/CLionProjects/MadLibRef/cmake-build-debug/Makefile&quot;  VERBOSE=1 MadLibRef"/>
+					<CompileFile command="C:/Dev/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/pokor/CLionProjects/MadLibRef/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Dev/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/pokor/CLionProjects/MadLibRef/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Dev/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/pokor/CLionProjects/MadLibRef/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="MadLibRef/fast">
-				<Option output="C:/Users/Pokora/CLionProjects/DeckOfCardsCPP/cmake-build-debug/MadLibRef.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/Pokora/CLionProjects/DeckOfCardsCPP/cmake-build-debug"/>
+				<Option output="C:/Users/pokor/CLionProjects/MadLibRef/cmake-build-debug/MadLibRef.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/pokor/CLionProjects/MadLibRef/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="C:/Users/Pokora/Documents/Dice/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
-					<Add directory="C:/Users/Pokora/Documents/Dice/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="C:/Users/Pokora/Documents/Dice/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
-					<Add directory="C:/Users/Pokora/Documents/Dice/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
-					<Add directory="C:/Users/Pokora/Documents/Dice/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="C:/Users/Pokora/Documents/Dice/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="C:/Dev/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.3.0/include/c++"/>
+					<Add directory="C:/Dev/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.3.0/include/c++/i686-w64-mingw32"/>
+					<Add directory="C:/Dev/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.3.0/include/c++/backward"/>
+					<Add directory="C:/Dev/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.3.0/include"/>
+					<Add directory="C:/Dev/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.3.0/include-fixed"/>
+					<Add directory="C:/Dev/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.3.0/../../../../i686-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/Users/Pokora/Documents/Dice/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Pokora/CLionProjects/DeckOfCardsCPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 MadLibRef/fast"/>
-					<CompileFile command="C:/Users/Pokora/Documents/Dice/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Pokora/CLionProjects/DeckOfCardsCPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/Users/Pokora/Documents/Dice/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Pokora/CLionProjects/DeckOfCardsCPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/Users/Pokora/Documents/Dice/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Pokora/CLionProjects/DeckOfCardsCPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/Dev/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/pokor/CLionProjects/MadLibRef/cmake-build-debug/Makefile&quot;  VERBOSE=1 MadLibRef/fast"/>
+					<CompileFile command="C:/Dev/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/pokor/CLionProjects/MadLibRef/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Dev/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/pokor/CLionProjects/MadLibRef/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Dev/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/pokor/CLionProjects/MadLibRef/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="C:/Users/Pokora/CLionProjects/DeckOfCardsCPP/cmake-build-debug"/>
+				<Option working_dir="C:/Users/pokor/CLionProjects/MadLibRef/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/Users/Pokora/Documents/Dice/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Pokora/CLionProjects/DeckOfCardsCPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="C:/Users/Pokora/Documents/Dice/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Pokora/CLionProjects/DeckOfCardsCPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/Users/Pokora/Documents/Dice/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Pokora/CLionProjects/DeckOfCardsCPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/Users/Pokora/Documents/Dice/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Pokora/CLionProjects/DeckOfCardsCPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/Dev/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/pokor/CLionProjects/MadLibRef/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/Dev/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/pokor/CLionProjects/MadLibRef/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Dev/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/pokor/CLionProjects/MadLibRef/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Dev/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/pokor/CLionProjects/MadLibRef/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="C:/Users/Pokora/CLionProjects/DeckOfCardsCPP/cmake-build-debug"/>
+				<Option working_dir="C:/Users/pokor/CLionProjects/MadLibRef/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/Users/Pokora/Documents/Dice/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Pokora/CLionProjects/DeckOfCardsCPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="C:/Users/Pokora/Documents/Dice/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Pokora/CLionProjects/DeckOfCardsCPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/Users/Pokora/Documents/Dice/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Pokora/CLionProjects/DeckOfCardsCPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/Users/Pokora/Documents/Dice/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Pokora/CLionProjects/DeckOfCardsCPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/Dev/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/pokor/CLionProjects/MadLibRef/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/Dev/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/pokor/CLionProjects/MadLibRef/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Dev/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/pokor/CLionProjects/MadLibRef/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Dev/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/pokor/CLionProjects/MadLibRef/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/Pokora/CLionProjects/DeckOfCardsCPP/Card.cpp">
+		<Unit filename="C:/Users/pokor/CLionProjects/MadLibRef/Card.cpp">
 			<Option target="MadLibRef"/>
 		</Unit>
-		<Unit filename="C:/Users/Pokora/CLionProjects/DeckOfCardsCPP/Card.hpp">
+		<Unit filename="C:/Users/pokor/CLionProjects/MadLibRef/Card.hpp">
 			<Option target="MadLibRef"/>
 		</Unit>
-		<Unit filename="C:/Users/Pokora/CLionProjects/DeckOfCardsCPP/Deck.cpp">
+		<Unit filename="C:/Users/pokor/CLionProjects/MadLibRef/Deck.cpp">
 			<Option target="MadLibRef"/>
 		</Unit>
-		<Unit filename="C:/Users/Pokora/CLionProjects/DeckOfCardsCPP/Deck.hpp">
+		<Unit filename="C:/Users/pokor/CLionProjects/MadLibRef/Deck.hpp">
 			<Option target="MadLibRef"/>
 		</Unit>
-		<Unit filename="C:/Users/Pokora/CLionProjects/DeckOfCardsCPP/main.cpp">
+		<Unit filename="C:/Users/pokor/CLionProjects/MadLibRef/main.cpp">
 			<Option target="MadLibRef"/>
 		</Unit>
-		<Unit filename="C:/Users/Pokora/CLionProjects/DeckOfCardsCPP/CMakeLists.txt">
+		<Unit filename="C:/Users/pokor/CLionProjects/MadLibRef/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>
