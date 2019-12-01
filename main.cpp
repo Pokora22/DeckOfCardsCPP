@@ -18,7 +18,7 @@ int main()
     cout << "Welcome to CARDS!" << endl;
 
     while(choice != 4){
-        cout << "Here's your options: \n1. Get a new deck of cards.\n2.Shuffle your cards\n3.Get a hand of N cards from current deck\n4. Exit\n>>";
+        cout << "Here's your options: \n1. Get a new deck of cards.\n2. Shuffle your cards\n3. Get a hand of N cards from current deck\n4. Exit\n>>";
         cin >> choice;
 
         switch(choice){
@@ -43,8 +43,11 @@ int main()
                 }
                 else
                     cout << "That's an impossible number to deal. You know that." << endl;
+
+                break;
             case 4:
                 cout << "Goodbye!" <<endl;
+                break;
         }
     }
 
