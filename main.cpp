@@ -29,7 +29,7 @@ int main()
                 break;
             case 2:
                 deck->Shuffle();
-                cout<< "Deck shuffled. What now ?" << endl;
+                cout<< "Deck shuffled. Here's what it looks like now:\n" << *deck << "\nCool, right?" << endl << endl;
                 break;
             case 3:
                 cout << "How many cards should I deal?\n>>";
