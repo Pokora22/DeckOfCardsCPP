@@ -37,3 +37,8 @@ Card::~Card() {
     delete pm_Suit;
     cout << "Deleting a card" << endl;
 }
+
+Card::Card(const Card &oldCard) {
+    pm_Suit = new string(*(oldCard.pm_Suit));
+    pm_Value = new int(*(oldCard.pm_Value));
+}

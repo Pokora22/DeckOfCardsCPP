@@ -24,7 +24,6 @@ Deck::~Deck() {
     for(auto card = pm_deck->begin(); card != pm_deck->end(); card++){
         delete *card;
     }
-//    delete m_randomDevice;
     delete pm_deck;
     cout << "Deleting all cards in the deck." << endl;
 }
@@ -39,5 +38,21 @@ ostream& operator<<(ostream& os, const Deck& d){
 
 void Deck::Shuffle() {
     std::shuffle(std::begin(*pm_deck), std::end(*pm_deck), m_rng);
+}
+
+vector<Card *>* Deck::getHand(int numOfCards) {
+    vector<Card*>* hand = new vector<Card*>;
+
+    for(int i = 0; i < numOfCards; i++){
+
+    }
+}
+
+Deck::Deck(const Deck &oldDeck) {
+    pm_deck = new vector<Card*>;
+
+    for(auto card : *oldDeck.pm_deck) {
+        pm_deck->push_back(new Card(*card));
+    }
 }
 

@@ -15,6 +15,7 @@ private:
 
 public:
     Card(int& suit, int& value);
+    Card(const Card& oldCard);
     ~Card();
     friend ostream& operator<<(ostream& os, const Card& c);
 };

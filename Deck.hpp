@@ -14,14 +14,14 @@
 class Deck {
 private:
     vector<Card*>* pm_deck;
-    std::random_device m_randomDevice;
-    std::mt19937 m_rng;
+    std::default_random_engine m_rng;
 public:
     Deck();
+    Deck(const Deck& oldDeck);
     ~Deck();
-    void printDeck();
     friend ostream& operator<<(ostream& os, const Deck& d);
     void Shuffle();
+    vector<Card*>* getHand(int numOfCards);
 };
 
 

@@ -14,10 +14,12 @@ int main()
 {
     Deck* deck = new Deck();
     deck->Shuffle();
-    cout << *deck;
-    deck->Shuffle();
-    cout << *deck;
-//    deck->printDeck();
+    Deck* deck2 = new Deck(*deck);
+
+    cout << *deck << endl;
+    cout << *deck2 << endl;
+
+    cout << 'break' << endl;
 
     delete deck;
 }
