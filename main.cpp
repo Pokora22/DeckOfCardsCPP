@@ -14,12 +14,18 @@ int main()
 {
     Deck* deck = new Deck();
     deck->Shuffle();
-    Deck* deck2 = new Deck(*deck);
 
-    cout << *deck << endl;
-    cout << *deck2 << endl;
+    vector<Card*>* hand = deck->getHand(5);
 
-    cout << 'break' << endl;
+    for(auto card : *hand)
+        cout<< *card <<endl;
 
-    delete deck;
+    cout << endl;
+    hand = deck->getHand(5);
+    for(auto card : *hand)
+        cout<< *card <<endl;
+
+    cout << "break" << endl;
+
+
 }

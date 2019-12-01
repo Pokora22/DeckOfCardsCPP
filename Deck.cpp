@@ -43,9 +43,12 @@ void Deck::Shuffle() {
 vector<Card *>* Deck::getHand(int numOfCards) {
     vector<Card*>* hand = new vector<Card*>;
 
+    std::uniform_real_distribution<float> distribution(0, pm_deck->size());
     for(int i = 0; i < numOfCards; i++){
-
+        hand->push_back((pm_deck->at((int)distribution(m_rng))));
     }
+
+    return hand;
 }
 
 Deck::Deck(const Deck &oldDeck) {
