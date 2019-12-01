@@ -27,10 +27,12 @@ int main()
                 deck = new Deck();
                 cout << "Mmm.. a fresh deck of cards." << endl;
                 break;
+
             case 2:
                 deck->Shuffle();
                 cout<< "Deck shuffled. Here's what it looks like now:\n" << *deck << "\nCool, right?" << endl << endl;
                 break;
+
             case 3:
                 cout << "How many cards should I deal?\n>>";
                 int num;
@@ -40,13 +42,18 @@ int main()
                     cout << "Here's what you got: ";
                     for (auto card : *hand)
                         cout << *card << ' ';
+                    cout << endl;
+                    delete hand;
+                    hand = nullptr;
                 }
                 else
                     cout << "That's an impossible number to deal. You know that." << endl;
-
                 break;
+
             case 4:
-                cout << "Goodbye!" <<endl;
+                delete deck;
+                deck = nullptr;
+                cout << "\nGoodbye!" <<endl;
                 break;
         }
     }
